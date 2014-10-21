@@ -1,0 +1,267 @@
+---
+layout: default
+---
+
+  <section class="home-banner light">
+    <div class="container">
+      <div class="logo-and-title">
+          <a class="blog-logo" href="{{site.baseurl}}/">
+            <img src="{{site.baseurl}}/img/cover.png" alt="Blog Logo" />
+          </a>
+
+        <h1 class="blog-title">
+          <a href="{{site.baseurl}}/">{{site..title}}</a>
+        </h1>
+      </div>
+
+      <h2 class="blog-description">{{site.description}}</h2>
+      
+      <br>
+      
+      <p>
+      <a class="button" href="https://gumroad.com/l/canvassing">
+        <span class="hidden">Buy ebook</span>
+      </a>
+
+        <a class="button" href="https://gumroad.com/l/canvassing-screencasts">
+          <span class="hidden">Buy ebook & screencasts</span>
+        </a>
+      </p>
+      
+      <p><a class="button" href="https://gumroad.com/l/canvassing-tutoring">
+        <span class="hidden">Buy ebook, screencasts, & 1 hour of tutoring</span>
+      </a></p>
+
+    </div>
+  </section>
+
+    <hr>
+
+    <div class="share sans-serif">
+      
+      <div class="center-text">
+        {% include newsletter.html %} 
+      </div>
+      
+      <br>
+      <br>
+      
+      <div class="serif center-text"><i>share:</i></div>
+      <p class="center-text">
+        <a class="icon-twitter button" href="https://twitter.com/share?text={{@blog.title}}&url=http://developmentenvironments.com"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter"></i> <span class="hidden">Twitter</span>
+        </a>
+        <a class="icon-facebook button" href="https://www.facebook.com/sharer/sharer.php?u=http://developmentenvironments.com"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook"></i> <span class="hidden">Facebook</span>
+        </a>
+        <a class="icon-google-plus button" href="https://plus.google.com/share?url=http://developmentenvironments.com"
+          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus"></i> <span class="hidden">Google+</span>
+        </a>
+      </p>
+    <div>
+      
+    <br>
+    <hr>
+
+    <section class="about-message">
+      <div class="container">
+        <h1>Get awesome at using the canvas tag & JavaScript for creative coding.</h1>
+        <h2>Learning to make games, weird internet art, or interactive infographics? <br>Learn to use the HTML5 canvas tag in your projects.</h2>
+        <hr>
+        <p>The canvas is the simplest way to get started making weird, fun projects using JavaScript. Learn it. Experiment. Level up.</p>
+      </div>
+    </section>
+    
+    
+    <hr>
+    <!--
+    <section class="languages">
+      <div class="container">
+        <h1>Learn animation, math, & interaction.</h1>
+        <h2>...</h2>
+        <hr>
+        <h2 class="center-text">Language concepts & tools the book covers:</h2>
+        <br>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <h3>...</h3>
+            <ul>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h3>...</h3>
+            <ul>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h3>...</h3>
+            <ul>
+              <li>...</li>
+              <li>...</li>
+              <li>...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="tools">
+      <div class="container">
+        <h1>Learn ..., ..., & ...</h1>
+        <h2>....</h2>
+        <hr>
+        <h2>...:</h2>
+        <br>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <h3>...</h3>
+            <p>...</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h3>...</h3>
+            <p>...</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h3>...</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+  -->
+    <section class="toc">
+      <div class="container">
+        <h1>About the book</h1>
+        <hr>
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <h3>Chapter list:</h3>
+            <ol id="table-of-contents">
+              <li>Getting set up</li>
+              <li>Drawing "hello" with lines</li>
+              <li>Writing on a canvas with text</li>
+              <li>Creating an animation loop</li>
+              <li>Drawing on a canvas with a mouse</li>
+              <li>Keyboard input</li>
+              <li>Drawing images on a canvas</li>
+              <li>Drawing video on a canvas</li>
+              <li>Save an animated gif from a canvas element</li>
+              <li>Make a simple game</li>
+              <li>Make weird art</li>
+              <li>Creating interactive infographics</li>
+              <li>Cheatsheet: canvas methods and properties</li>
+            </ol>
+          </div>
+
+          <div class="col-xs-12 col-md-7 col-md-offset-1">
+            <p><i>Canvassing is</i> an introductory guide to the HTML5 canvas tag, a resource for learning to make games, weird internet art, interactive infographics, and other creative coding using the canvas.</p>
+            <br>
+            <br>
+            <h4>You'll learn these topics:</h4>
+            <ul>
+              <li>Drawing paths, shapes, etc., and working with color</li>
+              <li>Drawing images/spritesheets on the canvas</li>
+              <li>How to create a game/animation loop</li>
+              <li>Detecting mouse & keyboard input</li>
+              <li>Creating complex animation sequences</li>
+              <li>Using the canvas tag in tandem with manipulating other html elements</li>
+              <li>Making animated gifs from a canvas animation</li>
+              <li>Using video on the canvas</li>
+              <li>An overview of awesome libraries you can use with the canvas tag</li>
+              <li>Usage of methods and properties of the canvas tag</li>
+              <li>Using JavaScript modules from npm for browser-side code</li>
+              <li>Introduce you to modern development tools & practices</li>
+            <ul>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="author">
+      <div class="container">
+        <h1>About the author</h1>
+        <hr>
+        <img class="author" src="http://learnjs.io/img/sethvincent.png">
+        Seth Vincent writes code, stories, and music. He's an independent programmer, designer and writer focused on storytelling and javascript. Previously he’s worked as a writing tutor and as an advisor of a student news organization. He's a co-organizer of <a href="http://seattle.io" target="blank">seattle.io</a> and <a href="http://codeforseattle.org" target="blank">Code for Seattle</a> , and owner of <a href="http://superbigtree.com" target="blank">Super Big Tree</a>.</p>
+        <p>
+          <a href="http://sethvincent.com" class="button" target="_blank">sethvincent.com</a> &nbsp; &nbsp;
+          <a href="http://github.com/sethvincent" class="button" target="_blank"> <i class="fa fa-github"></i> sethvincent</a> &nbsp; &nbsp;
+          <a href="http://twitter.com/sethdvincent" class="button" target="_blank"> <i class="fa fa-twitter"></i> sethdvincent</a>
+        </p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="about-learnjs">
+      <div class="container">
+        <h1>About Learn.js</h1>
+        <hr>
+        <div class="row">
+          <div class="col-xs-12 col-md-5">
+            <h2 style="text-align:left">The <i>Learn.js</i> series teaches:</h2>
+            <ul>
+              <li>JavaScript syntax, functions, data types, and programming patterns.</li>
+              <li>How to find and use Javascript libraries.</li>
+              <li>Using JavaScript to manipulate html elements.</li>
+              <li>Using JavaScript for server-side coding.</li>
+              <li>Using developer tools like Git, GitHub, Chrome Dev Tools, Bower, npm, and Grunt.</li>
+              <li>How to build a wide range of projects with JavaScript, from the server to the client, from game development to data analysis.</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-md-offset-1">
+            <h2 style="text-align:left">Other Learn.js books include:</h2>
+            <p><a class="button" href="http://learnjs.io/books/learnjs-01" target="blank">Introduction to JavaScript & Node.js</a></p>
+            <p><a class="button" href="http://learnjs.io/books/learnjs-02" target="blank">Making 2d Games with JavaScript</a></p>
+            <p><a class="button" href="http://learnjs.io/books/learnjs-03" target="blank">Mapping with Leaflet.js</a></p>
+            <p><a class="button" href="http://learnjs.io/npm-recipes" target="blank">npm recipes</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="work-in-progress">
+      <div class="container">
+        <h1>Free updates forever.</h1>
+        <h2>This book is updated regularly to make improvements based on feedback.</h2>
+        <hr>
+        <p>This book is considered feature complete! But you'll get free updates when we publish a new version with typo fixes, code fixes, or even a new chapter if we decide to release a new chapter.</p>
+        <br>
+        <div class="center-text">
+          <p>
+          <a class="button" href="https://gumroad.com/l/canvassing">
+            <span class="hidden">Buy ebook</span>
+          </a>
+
+            <a class="button" href="https://gumroad.com/l/canvassing-screencasts">
+              <span class="hidden">Buy ebook & screencasts</span>
+            </a>
+          </p>
+          
+          <p><a class="button" href="https://gumroad.com/l/canvassing-tutoring">
+            <span class="hidden">Buy ebook, screencasts, & 1 hour of tutoring</span>
+          </a></p>
+          
+          {% include newsletter.html %} 
+        </div>
+      </div>
+    </section>

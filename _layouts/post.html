@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="page container">
+  <h1>{{page.title}}</h1>
+  <hr>
+  <div class="post-meta" style="">{{ page.date | date: "%-d %B %Y" }}</div>
+
+  <div class="main-content">
+    {{content}}
+
+    <div class="author-bio">
+      {% include {{ page.author.bio }} %}
+    </div>
+  </div>
+
+  <hr>
+  {% include newsletter.html %}
+</div>

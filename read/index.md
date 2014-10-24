@@ -12,11 +12,10 @@ Thanks for checking out _Canvassing_!
 ### You'll learn these topics:
 
  - Drawing paths, shapes, etc., and working with color
- - Drawing images/spritesheets on the canvas
+ - Drawing images on the canvas
  - How to create a game/animation loop
  - Detecting mouse & keyboard input
  - Creating complex animation sequences
- - Using the canvas tag in tandem with manipulating other html elements
  - Making animated gifs from a canvas animation
  - Using video on the canvas
  - An overview of awesome libraries you can use with the canvas tag
@@ -4583,5 +4582,9 @@ Learn more at [learnjs.io](http://learnjs.io).
 ## v1.0.0 - October 22, 2014
 - All chapters completed!
 
+## v1.0.1 - October 24, 2014
+- Small fixes:
+  - typos and other cleanup
+  - revisions to accomadate online html version
 
 

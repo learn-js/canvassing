@@ -1,7 +1,7 @@
 title: Canvassing
 description: "Learn to use JavaScript & the HTML5 canvas tag for games, art, infographics, & other creative coding."
 permalink: /blog/:title
-baseurl: ''
+baseurl: '/canvassing'
 markdown: redcarpet
 twitter_username: learnjs_io
 github_username: learn-js

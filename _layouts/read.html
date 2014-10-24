@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="read container">
+  <h1>{{page.title}}</h1>
+  <hr>
+
+  <div class="main-content">
+    
+    <div id="sidebar">
+      <div>
+          <a href="{{site.baseurl}}/">
+            <img src="{{site.baseurl}}/img/cover.png" alt="Blog Logo" style="width:200px;">
+          </a>
+      </div>
+      
+      <br>
+      <p style="font-size: 12px;">Thanks for reading! Support the book by purchasing the PDF, EPUB, MOBI versions or screencasts.</p>
+      <hr>
+      <p> 
+      <a class="button" href="https://gumroad.com/l/canvassing">
+        <span>Buy ebook</span>
+      </a></p>
+
+      <p><a class="button" href="https://gumroad.com/l/canvassing-screencasts">
+          <span>Buy ebook & screencasts</span>
+        </a>
+      </p>
+      
+      <p><a class="button" href="https://gumroad.com/l/canvassing-tutoring">
+        <span>Buy ebook, screencasts, <br>& 1 hour of tutoring</span>
+      </a></p>
+      <hr>
+      
+    </div>
+    
+    <div id="content">
+      {{content}}
+    </div>
+  
+  </div>
+
+  <hr>
+  {% include newsletter.html %}
+</div>

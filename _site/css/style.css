@@ -231,6 +231,36 @@ h2.blog-description {
 
 /* CONTENT */
 
+
+/* READ THE BOOK */
+
+#content {
+  
+}
+
+#sidebar {
+
+}
+
+.read p, .read ul {
+  font-size: 14px;
+}
+
+@media (min-width:600px) {
+  .read p, .read ul {
+    font-size: 16px;
+  }
+}
+
+.read h1, h2, h3, h4 {
+  margin-top: 75px;
+}
+
+.read h5 {
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
 /* FOOTER */
 
 .site-footer {
@@ -432,11 +462,28 @@ img.author {
   .post-meta {
     margin-bottom: 50px;
   }
+  
+  #content {
+    width: 350px;
+  }
+
+  #sidebar {
+    float: right;
+    width: 180px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
   .container {
     width: 660px;
+  }
+  
+  #content {
+    width: 450px;
+  }
+
+  #sidebar {
+    width: 200px;
   }
 }
 
@@ -447,6 +494,14 @@ img.author {
 @media only screen and (min-width: 900px) {
   .container {
     width: 800px;
+  }
+  
+  #content {
+    width: 550px;
+  }
+
+  #sidebar {
+    width: 200px;
   }
 }
 

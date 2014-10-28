@@ -39,7 +39,7 @@ In each chapter we'll explore the canvas, npm, and the terminal. By the end of t
 
 ### git
 
-I encourage you to use git as version control software to track changes as you complete tutorials. If you're new to git, learn more about it in this [Git chapter of the Development Environments book](http://git-scm.com/book), the [Try Git interactive tutorial](http://try.github.io/), and the [Pro Git book that's available for free on the git website](http://git-scm.com/book).
+I encourage you to use git as version control software to track changes as you complete tutorials. If you're new to git, learn more about it in this [Git chapter of the Development Environments book](https://github.com/sethvincent/dev-envs-book/blob/master/chapters/06-git.md), the [Try Git interactive tutorial](http://try.github.io/), and the [Pro Git book that's available for free on the git website](http://git-scm.com/book).
 
 ### GitHub & GitHub Pages
 

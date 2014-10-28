@@ -29,7 +29,7 @@ The set of tools used in this book is as small as possible. The focus is on use 
 
 ### Terminal
 
-You'll be using the terminal in this book's tutorials. [The Terminal chapter in Development Environments for Beginners](https://github.com/sethvincent/dev-envs-book/blob/master/manuscript/terminal.md) will help you get started.
+You'll be using the terminal in this book's tutorials. [The Terminal chapter in Development Environments for Beginners](https://github.com/sethvincent/dev-envs-book/blob/master/chapters/04-terminal.md) will help you get started.
 
 ### Node.js, npm, & the browser
 

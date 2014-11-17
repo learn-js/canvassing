@@ -281,6 +281,15 @@ header .menu li a {
   margin-top: 75px;
 }
 
+.read h1.page-title {
+  text-align: center;
+  font-family: Lora, Georgia, serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
 .read h5 {
   font-size: 15px;
   letter-spacing: -1px;

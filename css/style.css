@@ -277,7 +277,10 @@ header .menu li a {
   }
 }
 
-.read h1, h2, h3, h4 {
+.read h1, 
+.read h2, 
+.read h3, 
+.read h4 {
   margin-top: 75px;
 }
 
